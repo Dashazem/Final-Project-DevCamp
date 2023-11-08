@@ -1,0 +1,26 @@
+.footer-section {
+    height: 130px;
+    background-color: #191a1d; 
+}
+
+.footer-section > .footer-section-padding {
+    background: rgb(37,39,45);
+    background: linear-gradient(60deg, rgba(37,39,45,1) 0%, rgba(25,26,29,1) 83%, rgba(5,6,7,1) 93%);
+    padding-top: 7px;
+}
+
+.footer-section > .footer-columns {
+    background-color: #36383f;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-section > .footer-columns > .footer-column {
+    color: white;
+    font-size: 1.3em;
+    width: 100%;
+    padding: 12px 64px;
+    border: 1.5px solid #676767;
+}

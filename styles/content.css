@@ -1,0 +1,108 @@
+/* Common content styles */
+.content-section {
+    background: rgb(55,58,66);
+    background: linear-gradient(150deg, rgba(55,58,66,1) 25%, rgba(25,26,29,1) 57%, rgba(10,11,13,1) 70%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+/* Left column content styles */
+.content-section > .content-left-column {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    height: 600px;
+}
+
+.content-section > .content-left-column > .content-left-column-heading {
+    font-size: 2.5em;
+    color: #cbcbcb;
+}
+
+.content-section > .content-left-column > .content-left-column-text  {
+    font-size: 2.2em;
+    color: #cbcbcb;
+}
+
+.content-section > .content-left-column > .content-left-column-text p {
+    line-height: 50px;
+}
+
+.content-section > .content-left-column > .content-left-column-buttons {
+    margin-top: 20px;
+    margin-left: -170px;
+    width: 570px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-section > .content-left-column > .content-left-column-buttons > .content-btn-sign {
+    background-color: #4bce79;
+    color: black;
+    font-size: 2.3em;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    outline: none;
+    transition: 0.3s;
+}
+
+.content-section > .content-left-column > .content-left-column-buttons > .content-btn-sign:hover {
+    background-color: #248c46;
+    color: white;
+}
+
+.content-section > .content-left-column > .content-left-column-buttons > .content-btn-sign:active {
+    transform: translateY(0.2rem);
+}
+
+.content-section > .content-left-column > .content-left-column-buttons > .content-btn-learn {
+    background-color: #111111;
+    color: white;
+    font-size: 2.3em;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.content-section > .content-left-column > .content-left-column-buttons > .content-btn-learn:hover {
+    background-color: #444857;
+    color: white;
+}
+
+.content-section > .content-left-column > .content-left-column-buttons > .content-btn-learn:active {
+    transform: translateY(0.2rem);
+}
+
+/* Right column content styles */
+.content-section > .content-right-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.content-section > .content-right-column > .content-right-column-text {
+    font-size: 1.3em;
+    color: white;
+}
+
+.content-section > .content-right-column > .content-right-column-image img {
+    width: 705px;
+    height: 100%;
+    box-shadow: -3px 15px 20px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+    
