@@ -52,8 +52,6 @@
     padding: 10px 20px;
     border: 1px solid transparent;
     border-radius: 5px;
-
-    outline: none;
     transition: 0.3s;
 }
 
@@ -73,7 +71,6 @@
     padding: 10px 20px;
     border: 1px solid transparent;
     border-radius: 5px;
-    outline: none;
     transition: 0.3s;
 }
 

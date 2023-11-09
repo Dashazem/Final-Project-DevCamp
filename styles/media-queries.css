@@ -1,0 +1,116 @@
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 1;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 2;
+        margin-top: 100px;
+        margin-left: 360px;
+        margin-bottom: 30px; 
+        align-items: center;
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-top: 30px;
+        flex-direction: column;
+        margin-top: 120px;
+    }
+
+    .navigation-wrapper > .left-column > .logo img {
+        width: 250px;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .center-column > .center-column-text {
+       margin-right: 10px;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 10px;
+    } 
+
+    .links-wrapper > .nav-links > .nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 1.2em;
+    } 
+
+    .spark-btn {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .nav-btn {
+        font-size: 1.5em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .content-section {
+        grid-template-columns: 1fr;
+        grid-gap: 70px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        padding-right: 70px;
+    }
+
+    .content-section > .content-left-column > .content-left-column-buttons {
+        flex-direction: column;
+        font-size: 0.5em;
+        height: 100%;
+        width: 110%;
+    }
+
+    .content-section > .content-left-column > .content-left-column-buttons > .content-btn-sign {
+        font-size: 3em;
+        margin-left: 180px;
+    }
+
+    .content-section > .content-left-column > .content-left-column-buttons > .content-btn-learn {
+        font-size: 3em;
+        margin-top: 20px;
+        margin-left: 180px;
+    }
+
+    .content-section > .content-right-column {
+        padding-top: 90px;
+    }
+
+    .content-section > .content-right-column > .content-right-column-image img {
+        width: 370px;
+        height: 100%;
+    }
+
+    .footer-section {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .footer-section > .footer-columns {
+        flex-direction: column;
+        width: 100%;
+        height: 200px
+    }
+    
+    .footer-section > .footer-columns > .footer-column {
+        text-align: center;  
+    }
+} 
