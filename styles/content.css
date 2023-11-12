@@ -15,25 +15,27 @@
 
 /* Left column content styles */
 .content-section > .content-left-column {
+    font-family: 'Nunito Sans', sans-serif;
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    padding-top: 15px;
     height: 600px;
 }
 
-.content-section > .content-left-column > .content-left-column-heading {
-    font-size: 2.5em;
+.content-section > .content-left-column > .content-left-column-heading h1 {
+    font-size: 2.7em;
+    font-weight: 300;
     color: #cbcbcb;
-}
-
-.content-section > .content-left-column > .content-left-column-text  {
-    font-size: 2.2em;
-    color: #cbcbcb;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .content-section > .content-left-column > .content-left-column-text p {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #cbcbcb;
     line-height: 50px;
 }
 

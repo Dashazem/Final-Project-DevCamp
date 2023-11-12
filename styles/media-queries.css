@@ -14,7 +14,7 @@
     .navigation-wrapper > .center-column {
         order: 2;
         margin-top: 100px;
-        margin-left: 360px;
+        margin-left: 370px;
         margin-bottom: 30px; 
         align-items: center;
     }
@@ -69,7 +69,7 @@
         grid-gap: 70px;
         padding-top: 40px;
         padding-bottom: 70px;
-        padding-right: 70px;
+        padding-right: 50px;
     }
 
     .content-section > .content-left-column > .content-left-column-buttons {
@@ -91,7 +91,7 @@
     }
 
     .content-section > .content-right-column {
-        padding-top: 90px;
+        margin-top: 120px;
     }
 
     .content-section > .content-right-column > .content-right-column-image img {
